@@ -1,0 +1,91 @@
+/* esm Device */
+@media screen and (max-width: 580px){
+    section {padding: 50px 0;}
+    .hero_right {flex-basis: 100%;}
+    .feature_left {flex-basis: 100%;}
+    .feature_right {flex-basis: 100%;}
+    .our_feature_title h2 {width: 100%;}
+    .our_feature_title p {width: 100%;}
+    .feature_textbox p {width: 100%;}
+    .feature_textbox2 p {width: 100%;}
+    .feature_textbox3 p {width: 100%;}
+    .left_textbox {flex-basis: 100%;}
+    .left_textbox h2 {font-size: 32px;width: 100%;}
+    .left_textbox h2::after{display: none;}
+    .right_textbox {flex-basis: 100%;margin-top: 20px;}
+    .right_textbox p {width: 100%;}
+    .single_feature {flex-basis: 100%;text-align: center;}
+    .single_feature p {width: 100%;}
+    .skills_left {flex-basis: 100%;}
+    .skills_right {flex-basis: 100%;}
+    .skills_right h2 {width: 100%; margin: 40px 0 30px 0;}
+    .skills_right p {width: 100%;}
+    #why_choose_us h2 {font-size: 28px;}
+    #why_choose_us .little_description {width: 100%;margin-left: 0;}
+    .single_top_service {flex-basis: 100%;}
+    .single_top_service p {margin-left: 0;}
+    .ultimate_service_left {flex-basis: 100%;}
+    .ultimate_service_right {flex-basis: 100%; display: none; right: 0;}
+    .ultimate_service_textbox h2 {width: 100%;}
+    .ultimate_service_textbox p {width: 100%;}
+    .single_service {flex-basis: 100%; text-align: center;}
+    #pricing_table_section h2 {width: 100%;margin-left: 0;}
+    #pricing_table_section .little_description {width: 100%;margin-left: 0;}
+    .price_btn .price_monthly {left: 7.7%;}
+    .price_row {width: 90%;display: block; margin-bottom: 30px;}
+    .testimonial_left {flex-basis: 100%;}
+    .testimonial_right {flex-basis: 100%;}
+    .testimonial_left a img {width: 100%; max-width: 730px;position: relative;left: 0;}
+    #accordion_section .little_description {width: 100%;}
+    #accordion {width: 100%;}
+    .download_apps_left {flex-basis: 100%;}
+    .apps_available_on {display: flex;}
+    .apps_available_on a {margin: 20px 0;}
+    .download_apps_right {flex-basis: 100%;}
+    .download_apps_right img {position: relative;bottom: 0%;}
+    .footer_menu li {margin: 10px 0;}
+}
+/* sm device */
+@media screen and (max-width: 980px){
+    .top_title {width: 55%;}
+    .our_feature_title h2 {width: 100%;}
+    .our_feature_title p {width: 100%;}
+    .feature_left {flex-basis: 100%;}
+    .feature_right {flex-basis: 100%;}
+    .left_textbox {flex-basis: 100%;}
+    .right_textbox {flex-basis: 100%;}
+    .skills_right h2 {width: 100%; margin-top: 0;}
+    .skills_right p{width: 100%;}
+    .ultimate_service_left {flex-basis: 100%;}
+    .ultimate_service_right {flex-basis: 100%;position: relative;right: 0;}
+    .price_btn .price_monthly {left: 28.7%;}
+    .price_col .price_btn {font-size: 15px;}
+    .testimonial_left a img {position: relative;left: 0;}
+    .testimonial_right .testimonial_top_textbox {width: 100%;}
+    .testimonial_top_textbox p {width: 100%;}
+    #accordion_section .little_description {width: 100%;}
+    .download_apps_left {flex-basis: 100%;}
+    .download_apps_right {flex-basis: 100%;}
+    .download_apps_right img {z-index: -999;}
+    .single_top_service p {margin-left: 6%;}
+
+}
+/* md screen */
+@media screen and (max-width: 1024px){
+    .container{width: 90%;}
+    .main_menu {display: none;}
+    .mobile_menu span{display: block;}
+    .hero_left {flex-basis: 100%;margin-left: 0; }
+    .top_title {width: 55%;}
+    .circle_left2 {left: 0;}
+    .hero_left h1 {font-size: 32px;}
+    .right_textbox p {width: 100%;}
+    .left_textbox h2 {width: 90%;}
+    .single_feature p {width: 85%;}
+    .skills_right h2 {width: 100%; margin-top: 0;}
+    .ultimate_service_right {position: relative;right: 0%;}
+    .ultimate_service_textbox h2 {width: 100%;}
+    .ultimate_service_textbox p {width: 100%;}
+    .price_btn .price_monthly {left: 33.7%;}
+    .download_apps_right img {bottom: -37%;right: -7%;}
+}
